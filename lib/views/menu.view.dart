@@ -59,26 +59,31 @@ class MenuView extends StatelessWidget {
                                   color: const Color(0xFFABC74F),
                                 ),
                                 borderRadius: BorderRadius.circular(12),
-                                image: const DecorationImage(
-                                  alignment: Alignment.topCenter,
-                                  image: AssetImage(
-                                    "assets/images/mtea.png",
-                                  ),
-                                ),
                               ),
                             ),
-                            const Positioned(
+                            Positioned(
+                              top: 0,
                               left: 0,
                               right: 0,
                               bottom: 16,
-                              child: Center(
-                                child: Text(
-                                  "Butterscotch",
-                                  style: TextStyle(
-                                    color: Colors.brown,
-                                    fontWeight: FontWeight.bold,
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Image.asset(
+                                      "assets/images/mtea.png",
+                                      fit: BoxFit.fitHeight,
+                                    ),
                                   ),
-                                ),
+                                  const SizedBox(height: 20),
+                                  const Text(
+                                    "Butterscotch",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      color: Colors.brown,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ],
