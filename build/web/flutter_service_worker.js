@@ -3,12 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "a7a253aa6a75a04418d34dae6bead495",
+const RESOURCES = {"flutter_bootstrap.js": "a47ca25e751e64a7414062b74dfc93a1",
 "version.json": "0d959bd5c3d280c229bab7b0bdae1754",
-"index.html": "718bf129b5df952412a13e330dd861d7",
-"/": "718bf129b5df952412a13e330dd861d7",
+"index.html": "05acd350fcb3b3ea76ed71cb1ac1ea8e",
+"/": "05acd350fcb3b3ea76ed71cb1ac1ea8e",
 "main.dart.js": "43f424c9b6617a5c11455636a9ed6b70",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
+"favicon/favicon.ico": "0118d96310b8e4e87c8c2cc0d8c742b6",
+"favicon/web-app-manifest-192x192.png": "fb39444396ab09e8c9f7bbf573fa7260",
+"favicon/apple-touch-icon.png": "546d70f6224461f95d1f83f48a41f0fc",
+"favicon/web-app-manifest-512x512.png": "bfb6b9254744efa28d5ddf36c314d219",
+"favicon/site.webmanifest": "6bc669e242e1c22a75491e3e00819e8b",
+"favicon/favicon-96x96.png": "d6ff417e9ef4b9a03b25e51fe9d8d4f8",
+"favicon/favicon.svg": "0641a7792ca8eb1318356dab70107f6a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
